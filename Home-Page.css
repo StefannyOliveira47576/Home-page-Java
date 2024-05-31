@@ -1,4 +1,37 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    color: beige;
+    flex-wrap: wrap;
+    background-color: #f89411;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 1em;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 1em;
+    color: beige;
+}
+
+.menu li :hover {
+    transition: 1s;
+    cursor: pointer;
+    color: #fff87e;
 }
