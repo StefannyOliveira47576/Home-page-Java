@@ -11,7 +11,12 @@
     padding: 3rem;
     color: beige;
     flex-wrap: wrap;
-    background-color: #f89411;
+    background-color: #f1b157;
+}
+
+.icons{
+    padding: 1rem;
+    font-size: 4rem;
 }
 
 .menu {
@@ -21,7 +26,7 @@
 .menu li {
     margin-left: 1em;
     list-style: none;
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 
 .menu li a {
@@ -33,5 +38,95 @@
 .menu li :hover {
     transition: 1s;
     cursor: pointer;
-    color: #fff87e;
+    color: #ffffb8;
+}
+
+.introducaojs{
+    text-align: center;
+    padding: 3rem;
+    background-color: #ffffb8 ;
+}
+
+.introducaojs h1{
+font-size: 2rem;
+padding: 1rem;
+}
+
+.introducaojs p{
+    font-size: 1.2rem;
+}
+
+.linha{
+    width: 70%;
+    margin: 45px auto; 
+}
+
+
+
+
+
+
+.introducao{
+    text-align: center;
+    padding: 4rem;
+    background-color: #ffffb8;
+    justify-content: space-between;
+    display: flex;
+}
+
+.imagem{
+    padding: 1rem;
+  margin-left: 1rem;
+}
+
+.textobi h2{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.principais{
+    padding: 1rem;
+    background-color: #ffffb8 ;
+}
+
+.principais h2{
+    padding: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.principais p{
+    padding: 0.1rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.principais ul{
+    padding: 2rem;
+   font-size: 1.3rem;
+}
+
+.conteudo{
+    padding: 1rem;
+    background-color: #ffffb8;
+    text-align: center;
+}
+
+.conteudo h3{
+    font-size: 1.8rem;
+    padding: 1rem; 
+}
+
+.conteudo p{
+    font-size: 1.1rem;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    color: beige;
+    flex-wrap: wrap;
+    background-color: #f1b157;
 }
